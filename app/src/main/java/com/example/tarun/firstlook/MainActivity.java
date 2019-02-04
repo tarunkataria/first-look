@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         myButton = findViewById(R.id.mainBtn);
-        //myButton.setText(R.string.button_name);
+        myButton.setText(R.string.button_name);
         myButton.setTextColor(Color.RED);
 
         myTextView = findViewById(R.id.mainTxtView);
